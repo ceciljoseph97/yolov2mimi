@@ -43,6 +43,7 @@ if __name__ == '__main__':
     """
     for testing
     """
+    #random comment for git
 
     folder = 'images'
     img = [im for im in os.scandir('images') if '000001' in im.name][0]
